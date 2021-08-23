@@ -20,4 +20,9 @@ timm (https://github.com/rwightman/pytorch-image-models)<br/>
 yolov5 (https://github.com/ultralytics/yolov5)<br/>
 
 ## hardware requirement
-rtx A6000  x 3
+rtx A6000  x 3 or equivalent
+
+## run training
+1. Copy the competition data into input/, then go to preprocessing_input/ and run process_input_train.py to create resized png training data.
+2. For efficientdet training, first create splits by running efficientdet/splits/split1.py and split4.py, then go to efficientdet/D5 and D6 to run the run.sh file.
+3. For yolo model training, first create splits by running yolo/splits/split51.py and split61.py, then go to yolo/l6 and x6 to run the run.sh file.
