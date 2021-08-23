@@ -17,5 +17,7 @@ omegaconf<br/>
 albumentations (https://github.com/albumentations-team/albumentations)<br/>
 Weighted-Boxes-Fusion (https://github.com/ZFTurbo/Weighted-Boxes-Fusion)<br/>
 timm (https://github.com/rwightman/pytorch-image-models)<br/>
+yolov5 (https://github.com/ultralytics/yolov5)<br/>
 
 ## hardware requirement
+rtx A6000  x 3
